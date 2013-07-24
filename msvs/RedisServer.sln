@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RedisServer", "RedisServer.vcxproj", "{46842776-68A5-EC98-6A09-1859BBFC73AA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hiredis", "hiredis\hiredis.vcxproj", "{13E85053-54B3-487B-8DDB-3430B1C1B3BF}"
@@ -20,6 +20,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RedisCli", "RedisCli\RedisC
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua", "lua\lua\lua.vcxproj", "{170B0909-5F75-467F-9501-C99DEC16C6DC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RedisWatcher", "RedisWatcher\RedisWatcher\RedisWatcher.vcxproj", "{A249484F-526D-4725-9434-430F74837FFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,13 @@ Global
 		{170B0909-5F75-467F-9501-C99DEC16C6DC}.Release|Win32.Build.0 = Release|Win32
 		{170B0909-5F75-467F-9501-C99DEC16C6DC}.Release|x64.ActiveCfg = Release|x64
 		{170B0909-5F75-467F-9501-C99DEC16C6DC}.Release|x64.Build.0 = Release|x64
+		{A249484F-526D-4725-9434-430F74837FFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A249484F-526D-4725-9434-430F74837FFE}.Debug|Win32.Build.0 = Debug|Win32
+		{A249484F-526D-4725-9434-430F74837FFE}.Debug|x64.ActiveCfg = Debug|Win32
+		{A249484F-526D-4725-9434-430F74837FFE}.Release|Win32.ActiveCfg = Release|Win32
+		{A249484F-526D-4725-9434-430F74837FFE}.Release|Win32.Build.0 = Release|Win32
+		{A249484F-526D-4725-9434-430F74837FFE}.Release|x64.ActiveCfg = Release|x64
+		{A249484F-526D-4725-9434-430F74837FFE}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
